@@ -26,7 +26,7 @@ This lab will go over the creation of a faucet smart contract. A faucet is a fre
     // Version of Solidity compiler this program was written for
     pragma solidity ^0.5.1;
     ```
-    * This piece of information allows the Solidity compiler to know what set of rules it should use when compiling the contract into bytecode. Solidity changes often, so using compiler versions far from the version the code was written for may cause compilation or runtime issues.
+    * This piece of information allows the Solidity compiler to know what set of rules it should use when compiling the contract into bytecode.
 5. PLACEHOLDER
 
 ## Credits
