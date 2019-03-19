@@ -34,6 +34,7 @@ This lab will go over the creation of a faucet smart contract. A faucet is a fre
         function withdraw(uint withdraw_amount) public {
             // Limit withdrawal amount
             require(withdraw_amount <= 100000000000000000);
+            require(address(this).balance >= withdraw_amount, "Insufficient balance in faucet for withdrawal request");
 
             // Send the amount to the address that requested it
             msg.sender.transfer(withdraw_amount);
@@ -86,6 +87,7 @@ This lab will go over the creation of a faucet smart contract. A faucet is a fre
         function withdraw(uint withdraw_amount) public {
             // Limit withdrawal amount
             require(withdraw_amount <= 0.1 ether);
+            require(address(this).balance >= withdraw_amount, "Insufficient balance in faucet for withdrawal request");
 
             // Send the amount to the address that requested it
             msg.sender.transfer(withdraw_amount);
