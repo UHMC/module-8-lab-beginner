@@ -7,7 +7,7 @@ This lab will go over the creation of a faucet smart contract. A faucet is a fre
 | Attribute | Explanation |
 | - | - |
 | Summary | This assignment involves creating, deploying, and interacting with a faucet smart contract. |
-| Topics  | Smart contracts, faucets, tokens. |
+| Topics | Smart contracts, faucets, tokens. |
 | Audience | Appropriate for CS1 or a later course. |
 | Difficulty | Beginner. |
 | Strengths | This assignment exposes students to popular technology (blockchain) and some of its features. |
