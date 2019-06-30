@@ -1,5 +1,7 @@
 # Module 8 - Beginner Lab: Creating A Faucet
 
+** Note: This lab assumes the older interface for Remix IDE. The updated faucet8.sol code is the latest code with events from Chapter 7
+
 ## Background
 This lab will go over the creation of a faucet smart contract. A faucet is a free source of tokens.
 
